@@ -1,0 +1,31 @@
+name: xiaoxiaobot-script
+channels:
+  - defaults
+dependencies:
+  - bzip2=1.0.8=h2bbff1b_6
+  - ca-certificates=2024.7.2=haa95532_0
+  - libffi=3.4.4=hd77b12b_1
+  - openssl=3.0.14=h827c3e9_0
+  - pip=24.0=py311haa95532_0
+  - python=3.11.9=he1021f5_0
+  - setuptools=69.5.1=py311haa95532_0
+  - sqlite=3.45.3=h2bbff1b_0
+  - tk=8.6.14=h0416ee5_0
+  - tzdata=2024a=h04d1e81_0
+  - vc=14.2=h2eaa2aa_4
+  - vs2015_runtime=14.29.30133=h43f2093_4
+  - wheel=0.43.0=py311haa95532_0
+  - xz=5.4.6=h8cc25b3_1
+  - zlib=1.2.13=h8cc25b3_1
+  - pip:
+    - keyboard==0.13.5
+    - mouseinfo==0.1.3
+    - pillow==10.4.0
+    - pyautogui==0.9.54
+    - pygetwindow==0.0.9
+    - pymsgbox==1.0.9
+    - pyperclip==1.9.0
+    - pyrect==0.2.0
+    - pyscreeze==0.1.30
+    - pytweening==1.2.0
+prefix: C:\ProgramData\Miniconda3\envs\xiaoxiaobot-script
