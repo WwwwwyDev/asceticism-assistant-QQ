@@ -56,7 +56,6 @@ class Controller:
             return
         self.update_win_title_select()
         pixel = self.ui.tk_label_m0bt0vsq.cget("text")
-        is_use = "1" if self.ui.tk_check_button_v_m0c03zwf.get() else "0"
         is_safe = "1" if self.ui.tk_check_button_v_m0c04cpe.get() else "0"
         is_need_auto_position = "1" if self.ui.tk_check_button_v_m0g8qf1q.get()  else "0"
         window_title = self.win_title_list[self.ui.tk_select_box_m0g8kw6s.current()]
@@ -95,7 +94,6 @@ class Controller:
             "message_info": message_info,
             "input_rate": float(input_rate),
             "work_interval": float(work_interval),
-            "is_use": True if is_use  == "1" else False,
             "is_safe": True if is_safe  == "1" else False,
             "window_title": window_title,
             "x": int(x),

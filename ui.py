@@ -19,7 +19,6 @@ class WinGUI(Tk):
         self.tk_label_m0bzr5au = self.__tk_label_m0bzr5au(self)
         self.tk_input_m0bzrwvq = self.__tk_input_m0bzrwvq(self)
         self.tk_label_m0bzs1ie = self.__tk_label_m0bzs1ie(self)
-        self.tk_check_button_m0c03zwf = self.__tk_check_button_m0c03zwf(self)
         self.tk_check_button_m0c04cpe = self.__tk_check_button_m0c04cpe(self)
         self.tk_label_frame_m0g8gr89 = self.__tk_label_frame_m0g8gr89(self)
         self.tk_select_box_m0g8kw6s = self.__tk_select_box_m0g8kw6s( self.tk_label_frame_m0g8gr89) 
@@ -38,7 +37,6 @@ class WinGUI(Tk):
         self.tk_button_lzb1t8nh = self.__tk_button_lzb1t8nh(self)
         self.tk_label_lzrtdzsr = self.__tk_label_lzrtdzsr(self)
         self.tk_button_m21i0hq4 = self.__tk_button_m21i0hq4(self)
-        self.tk_check_button_m0c03zwf, self.tk_check_button_v_m0c03zwf = self.__tk_check_button_m0c03zwf(self) 
         self.tk_check_button_m0c04cpe, self.tk_check_button_v_m0c04cpe = self.__tk_check_button_m0c04cpe(self) 
         self.tk_check_button_m0c59gfd, self.tk_check_button_v_m0c59gfd = self.__tk_check_button_m0c59gfd(self.tk_label_frame_m0c1cupj)
         self.tk_check_button_m0g8qf1q, self.tk_check_button_v_m0g8qf1q= self.__tk_check_button_m0g8qf1q(self.tk_label_frame_m0c1cupj)  
@@ -128,12 +126,6 @@ class WinGUI(Tk):
         label = Label(parent,text="秒",anchor="center", )
         label.place(x=212, y=146, width=41, height=35)
         return label
-    def __tk_check_button_m0c03zwf(self,parent):
-        cb_v = BooleanVar()
-        cb_v.set(True)
-        cb = Checkbutton(parent,text="启用", variable=cb_v, bootstyle="round-toggle")
-        cb.place(x=262, y=23, width=92, height=44)
-        return cb, cb_v
     def __tk_check_button_m0c04cpe(self,parent):
         cb_v = BooleanVar()
         cb_v.set(False)
