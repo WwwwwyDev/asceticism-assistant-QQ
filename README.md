@@ -17,7 +17,7 @@ qq修仙，支持小小、一念、汐汐、小北等bot
 ## step1
 
 下载可执行文件，并运行
-[github](https://github.com/WwwwwyDev/asceticism-assistant-QQ/releases/latest) | [gitee](https://gitee.com/wu_wen_yi/markdown-compiler/releases/latest)
+[github海外](https://github.com/WwwwwyDev/asceticism-assistant-QQ/releases/download/v0.0.1/asceticism-assistant.exe) | [gitee国内]()
 
 
 ## step2
