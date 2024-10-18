@@ -39,7 +39,8 @@ qq修仙，支持小小、一念、汐汐、小北等bot
 
 ## 相关支持
 
-[tkinter布局助手](https://www.pytk.net/)
+[tkinter布局助手](https://www.pytk.net/)\
+[ttkbootstrap](https://ttkbootstrap.readthedocs.io/en/latest/)
 
 ## 免责声明
 MIT开源协议，如用作商业用途出现的纠纷与原作者无关
