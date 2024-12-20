@@ -2,8 +2,6 @@
 from ui import Win as MainWin
 # 导入窗口控制器
 from control import Controller as MainUIController
-from net import check_internet_connection
-from tkinter.messagebox import showerror
 from PIL import ImageTk
 from base64 import b64decode
 import keyboard
@@ -19,9 +17,8 @@ icon_img = b64decode(b64img)
 icon_img = ImageTk.PhotoImage(data=icon_img)
 app.tk.call('wm','iconphoto',app,icon_img)
 app.tk.call('tk', 'scaling', ScaleFactor/75)
-if check_internet_connection():
+
+if __name__ == "__main__":
     app.mainloop()
     keyboard.clear_all_hotkeys()
     keyboard.remove_all_hotkeys()
-else:
-    showerror("未连接网络","请连接网络后使用")

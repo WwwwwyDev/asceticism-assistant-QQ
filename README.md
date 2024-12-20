@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://socialify.git.ci/WwwwwyDev/asceticism-assistant-QQ/image?language=1&name=1&owner=1&stargazers=1&theme=Light" alt="asceticism-assistant-QQ" width="640" height="320" />
+  <a href="https://github.com/WwwwwyDev/asceticism-assistant-QQ"><img src="https://s2.loli.net/2024/12/20/dwA6ZrJaGWFls89.png" alt="fantasy-world-bot4qq"></a>
 </p>
 
 <div align="center">
