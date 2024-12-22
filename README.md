@@ -16,7 +16,7 @@ qq修仙自动化软件，模拟鼠标键盘，支持小小、一念、汐汐、
 
 ### 下载
 
-下载最新版win可执行文件，并运行
+下载最新版win可执行文件，并运行\
 [下载地址1](https://github.com/WwwwwyDev/asceticism-assistant-QQ/releases/download/v0.0.2/asceticism-assistant.exe) | [下载地址2](https://gitee.com/wu_wen_yi/asceticism-assistant-QQ/releases/download/v0.0.2/%E4%BF%AE%E4%BB%99%E5%B0%8F%E5%8A%A9%E6%89%8B.exe) | [百度网盘](https://pan.baidu.com/s/1Ajmu1PgfSCLVyxzF00p_PA?pwd=igb7)
 
 
